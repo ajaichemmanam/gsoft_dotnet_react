@@ -40,21 +40,15 @@ namespace gsoft_dotnet.Controllers
 
         public static void ReadData()
         {
-            string json =
-                System
-                    .IO
-                    .File
-                    .ReadAllText(@"/Users/ajaichemmanam/Downloads/gSoft_WorkSample/gsoft_dotnet/Data/Transits.json");
+            var transit_path = @"./Data/Transits.json";
+            string json = System.IO.File.ReadAllText(transit_path);
             transitList =
                 Newtonsoft
                     .Json
                     .JsonConvert
                     .DeserializeObject<Models.Transits>(json);
-            json =
-                System
-                    .IO
-                    .File
-                    .ReadAllText(@"/Users/ajaichemmanam/Downloads/gSoft_WorkSample/gsoft_dotnet/Data/Products.json");
+            var product_path = @"./Data/Products.json";
+            json = System.IO.File.ReadAllText(product_path);
             productList =
                 Newtonsoft
                     .Json
