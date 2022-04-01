@@ -1,7 +1,7 @@
 # gsoft_dotnet_react
 A sample app created using dotnet v6 backend and react frontend
 
-Screenshots
+## Screenshots
 
 ![screen1](https://raw.githubusercontent.com/ajaichemmanam/gsoft_dotnet_react/main/Screenshots/screen1.png)
 ![screen2](https://raw.githubusercontent.com/ajaichemmanam/gsoft_dotnet_react/main/Screenshots/screen2.png)
