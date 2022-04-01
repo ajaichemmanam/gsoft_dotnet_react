@@ -9,7 +9,7 @@ Screenshots
 ![screen4](https://raw.githubusercontent.com/ajaichemmanam/gsoft_dotnet_react/main/Screenshots/screen4.png)
 
 
-The projecct requirement is described below.
+The project requirement is described below.
 
 ### Problem Statement in English
 
