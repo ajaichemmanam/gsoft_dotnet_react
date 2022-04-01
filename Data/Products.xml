@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Products>
+	<Product Name="Twenty-Sided Die" FactoryLocation="10,15" Destination="250,30" Weight="0.005" Value="0.2" Type="NonPerishable" />
+	<Product Name="Dictionary" FactoryLocation="10,15" Destination="250,30" Weight="5" Value="30" Type="NonPerishable" />
+	<Product Name="Laptop" FactoryLocation="10,15" Destination="75,550" Weight="5" Value="2000" Type="NonPerishable" />
+	<Product Name="Yogurt" FactoryLocation="10,15" Destination="118,80" Weight="1" Value="4" Type="Perishable" />
+	<Product Name="Chair" FactoryLocation="10,15" Destination="350,88" Weight="2" Value="20" Type="NonPerishable" />
+</Products>

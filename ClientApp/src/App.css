@@ -1,0 +1,86 @@
+.mainHead {
+  font-family: SourceSansProBold, serif;
+  color: rgb(255, 255, 255);
+  font-size: 60px;
+  line-height: 1.25;
+  margin-top: 64px;
+  margin-left: 20px;
+}
+.subHead {
+  font-family: SourceSansProRegular, serif;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  line-height: 1.25;
+  margin-left: 20px;
+}
+
+.select {
+  height: 40px;
+  width: 200px;
+  padding-left: 10px;
+  background-color: white;
+  border: 1px solid #80808080;
+  border-radius: 5px;
+  font-family: SourceSansProRegular, serif;
+  font-size: 16px;
+  appearance: none;
+  display: inline-block;
+}
+
+.selectbox {
+  height: 40px;
+  width: 200px;
+  margin-left: 10px;
+  position: relative;
+  display: inline-block;
+}
+.selectarrow {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  display: inline-block;
+  top: 7px;
+  right: 8px;
+  background-color: black;
+  background: url("./assets/select-arrow.png") right / 90% no-repeat;
+  pointer-events: none;
+}
+
+.appLogo {
+  height: 140px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.transportLogo {
+  height: 80px;
+  width: 80px;
+}
+
+.profitCard {
+  height: 560px;
+  width: 450px;
+}
+.costCard {
+  background-color: #99dc54;
+  height: 560px;
+  width: 450px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.quantityCard {
+  height: 560px;
+  width: 450px;
+}
+
+.divider {
+  border-bottom: 1px solid white;
+  width: 100%;
+  opacity: 80%;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
